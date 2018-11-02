@@ -1,0 +1,17 @@
+.top-line-menu-block a{
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 30px 0 0;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.top-line-menu-block a:last-child{
+	margin: 0;
+}
+
+.top-line-menu-block a:hover,
+.top-line-menu-block a.selected{
+	color: #f20208;
+}

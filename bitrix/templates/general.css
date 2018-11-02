@@ -1,0 +1,168 @@
+a {
+	color: #369BF4;
+}
+audio {
+	width: 70%;
+	clear: both;
+	display: block;
+	padding: 5px 0 15px;
+}
+p {text-align: justify;}
+
+
+
+.img-right {
+	float: right;
+	padding: 0 0 7px 15px;
+}
+.img-left {
+	float: left;
+	padding: 0 15px 7px 0; 
+}
+
+.wrap-center {
+	text-align: center;
+}
+.wrap-center table {
+	width: 80%;
+    margin: 9px auto;
+}
+.wrap-center table td {
+	width: 50%;
+}
+
+
+
+
+.kontent_main,
+.kontent_inner {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333;
+    padding: 28px 0;
+}
+
+
+.kontent_main li {padding-bottom: 7px;}
+.kontent_inner ul {padding-left: 20px;}
+
+
+    
+
+
+.kontent_inner {
+    width: 734px;
+}
+
+.menu_2 {
+    width: 202px;
+    background: #030202 url('http://playstudio.ru/bitrix/templates/furniture_pale-blue2/images/inner_menu.jpg') repeat-y 100% 0;;
+    padding: 29px 0 0 21px;
+    margin: 0;
+}
+.menu_2 ul {
+	padding: 0;
+    margin: 0;
+}
+.menu_2 ul ul {
+	font-size: 14px;
+	padding: 0 0 0 20px;
+}
+.menu_2 a:hover {
+	text-decoration: underline;
+}
+
+
+.menu_2 ul ul a {
+	color: #879294;
+    padding: 0 0 0 15px;
+    background: url('marker.png') no-repeat 0 4px;
+}
+
+
+
+
+.line_kontent {
+	background: #fff;
+	margin: 12px 0;
+}
+.line_kontent table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.line_kontent table td,
+.line_kontent table th {
+	border: 1px solid #ccc;
+    padding: 5px 7px;
+}
+.line_kontent table th {
+	color: #fff;
+    background: #0468A7;
+    border: 1px solid #0468A7;
+}
+
+
+
+
+
+.footer {
+	background: url('/bitrix/templates/furniture_pale-blue2/images/texture.jpg');
+}
+
+.footer_table {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 13px;
+}
+.footer_table_H {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.menu_main a div:hover {
+opacity: 0.95;
+}
+.footer a:hover {
+	text-decoration: underline; 
+}
+
+
+
+
+.submit_block input {
+    color: #ffffff;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 9px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.width_50 {
+	width: 50%;
+	float: left;
+}
+.overflow {
+	text-align: center;
+	overflow: hidden;
+}
+.overflow .width_50:hover img {
+	opacity: 0.9;
+}
+.overflow b {
+	font-size: 16px;
+	padding: 7px 0;
+}
+
+div.mfeedback {
+	border: 1px solid #ccc;
+	padding: 23px;
+}
+div.mfeedback h3 {
+	margin: 0;
+}
+
+.pic {
+    float: left;
+    border: 3px solid white;
+    width: 238px;
+    height: 202px;
+}

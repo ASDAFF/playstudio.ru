@@ -1,0 +1,22 @@
+.footer-block-soch{
+    text-align: right;
+	margin-right: 13px;
+}
+
+.footer-block-soch a{
+	display: inline-block;
+	margin: 22px 10px 0 0;
+	width: 28px;
+	height: 28px;
+	background: url(images/soch-icon.png) left center;
+	background-position: 0px center;
+	border-radius: 100%;	
+}
+
+.footer-block-soch a.nchild2{
+	background-position: -32px center;
+}
+
+.footer-block-soch a.nchild3{
+	background-position: -65px center;
+}

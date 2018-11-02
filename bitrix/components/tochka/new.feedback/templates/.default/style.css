@@ -1,0 +1,36 @@
+
+div.mfeedback {
+    padding: 10px;
+    width: 300px;
+}
+.form_row {
+}
+.form_row .mf-text {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.form_row input[type="text"] {
+      height: 30px;
+    line-height: 30px;
+    padding: 3px;
+    width: 290px;
+}
+span.mf-req {
+    color: #ff0000;
+}
+div.mf-ok-text {
+    color: #008000;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+.submit_block {
+    text-align: right;
+}
+.submit_block  input{
+	  background-image: url("/bitrix/templates/furniture_pale-blue2/images/inner_menu.jpg");
+    color: #ffffff;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 0.3em 1.5em;
+    text-decoration: none;
+}

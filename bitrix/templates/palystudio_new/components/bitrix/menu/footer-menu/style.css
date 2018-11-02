@@ -1,0 +1,9 @@
+.footer-menu-block a{
+	display: inline-block;
+	margin: 0 0 0 30px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 26px;
+	text-decoration: none;
+	font-weight: 300;
+}

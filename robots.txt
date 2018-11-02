@@ -1,0 +1,16 @@
+User-Agent: *
+Disallow: /?alias=
+Disallow: /auth/
+Disallow: /personal/
+Disallow: /search/
+Disallow: /*/search/
+Disallow: /*?print=
+Disallow: /*&print=
+Disallow: /*register=
+Disallow: /*forgot_password=
+Disallow: /*change_password=
+Disallow: /*login=
+Disallow: /*logout=
+Disallow: /*auth=
+Host: https://playstudio.ru
+Sitemap: https://playstudio.ru/sitemap.xml

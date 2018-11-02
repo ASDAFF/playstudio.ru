@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Минусовка";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,21 @@
+.top-line-menu-soch{
+    text-align: right;
+}
+
+.top-line-menu-soch a{
+	display: inline-block;
+	margin: 22px 10px 0 0;
+	width: 28px;
+	height: 28px;
+	background: url(images/soch-icon.png) left center;
+	background-position: 0px center;
+	border-radius: 100%;	
+}
+
+.top-line-menu-soch a.nchild2{
+	background-position: -32px center;
+}
+
+.top-line-menu-soch a.nchild3{
+	background-position: -65px center;
+}

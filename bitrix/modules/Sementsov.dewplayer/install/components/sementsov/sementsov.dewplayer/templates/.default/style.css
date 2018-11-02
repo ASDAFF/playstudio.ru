@@ -1,0 +1,13 @@
+.imagebox-list {
+  margin: 5px 0px 25px 0px;
+  display: inline-block
+}
+.imagebox-list a {
+  float: left;
+  display: block;
+  margin: 0px 9px 8px 9px
+}
+.imagebox-list a img {
+  border: 1px solid #000000;
+  margin: 0px
+}

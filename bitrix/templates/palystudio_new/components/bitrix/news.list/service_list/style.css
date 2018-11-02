@@ -1,0 +1,130 @@
+.services-list
+{
+	position: relative;
+	overflow: hidden;
+	margin: 55px 0 0 0;
+}
+
+.services-list-item{
+	background: #edeeee;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 10px 0;
+	width: 782px;
+}
+
+
+.services-list-item h2{
+	text-transform: uppercase;
+	color: #fe0000;
+	font-size: 26px;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+.services-list-item-leftcol{
+	padding: 25px;
+	background: #d3d4d6;
+	position: relative;
+	overflow: hidden;
+	font-size: 20px;
+	min-height: 260px;
+}
+
+.services-list-item-rightcol{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services-list-item-price{
+	height: 30px;
+	line-height: 30px;
+	background: url(../../../../images/service-price.png) right center no-repeat;
+	text-align: right;
+	color: #ffffff;
+	font-size: 14px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+}
+
+.services-list-item-price-absolute{
+	position: absolute;
+    right: 15px;
+    top: 17px;
+    width: 133px;
+}
+
+.services-list-item-text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.services-list-item-text li{
+	margin: 5px 0;
+}
+
+.services-list-item-text h2,
+.services-list-item-text h3{
+	color: #fe0000;
+	margin: 0;
+	padding: 0;
+}
+
+.services-list-item-preview h3{
+	color: #fe0000;
+	margin: 15px 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.services-list .footer-recall-block{
+	background-color: #000000;
+	margin-bottom: 10px;
+}
+
+.services-list .footer-recall-block .form-submit{
+	border-bottom: 8px solid #fe0000;
+}
+
+.services-list .footer-recall-form input[type="text"]{
+	color: #ffffff;
+}
+
+.services-list .ps-prishepka{
+	overflow: visible;
+	z-index: 10;
+}
+
+.services-list .ps-prishepka:before {
+    content: '';
+    position: absolute;
+    right: 40px;
+    top: -83px;
+    background: url(../../../../images/prechepka.png) center center no-repeat;
+    width: 81px;
+    height: 108px;
+}
+
+.services-list .ps-recall-block{
+	background-color: #fe0000;
+	border-bottom: 8px solid #fe0000;
+	border-left: 4px solid #fe0000;
+	height: 207px;
+}
+
+.services-list-item-link{
+	background: url(../../../../images/services-allinfo.png) center center no-repeat;
+	display: block;
+	width: 185px;
+	height: 22px;
+	margin-top: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services-list .ps-recall-block h3{
+	padding-top: 0; 
+}

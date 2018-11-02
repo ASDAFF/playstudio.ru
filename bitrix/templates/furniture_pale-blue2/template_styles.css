@@ -1,0 +1,301 @@
+/*Новости*/
+
+.news-title{font-family:verdana;font-size:14px;}
+.news-date{font-family:verdana;font-size:14px;}
+.news-title a{text-decoration:none;}
+
+/*Галерея*/
+#lightbox-image{max-width: 800px;	max-height: 600px;}
+#lightbox-container-image-box{max-width: 820px;	max-height: 620px;}
+#lightbox-container-image-data-box{max-width: 800px;	max-height: 600px;}
+.clear{
+	clear:both;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#container{
+	width:780px;
+	margin-left:-4px;
+}
+
+div.nomargin{
+	margin-right:0px;
+}
+
+.pic{
+	float:left;
+	border:5px solid white;
+	width:250px;
+	height:170px;
+}
+
+.pic a{
+	width:250px;
+	height:170px;
+	text-indent:-99999px;
+	display:block;
+}
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px auto;
+	background-image: url(images/bgr_giutar.jpg);
+	background-position: center top;
+	}
+	
+	
+.headline {
+	background-repeat: repeat;
+	width: 100%;
+	height: 150px;
+	background-image: url(images/texture.jpg);
+}
+.page {
+	width: 1000px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -150px;
+}
+.header {
+	width: 1000px;
+	height: 150px;
+}
+.logo {
+	background-image: url(images/Head_logo.png);
+	width: 403px;
+	height: 150px;
+	float: left;
+}
+.head_txt {
+	width: 597px;
+	height: 150px;
+	float: left;
+	background-image: url(images/Head_txt.png);
+
+}
+
+.head_phone {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 28px;
+	line-height: 33px;
+	margin-top: 76px;
+	color: #FFFFFF;
+	text-align: right;
+	width: 360px;
+	height: 70px;
+	float: right;
+	margin-right: 7px;
+	}
+	
+.menu_main {
+	float: left;
+	width: 1000px;
+	height: 400px;
+}
+#button_1 {
+	width: 332px;
+	height: 205px;
+	float: left;
+	background-image: url(images/z_02.gif);
+}
+#button_2 {
+	width: 337px;
+	height: 205px;
+	float: left;
+	background-image: url(images/z_03.gif);
+}
+#button_3 {
+	width: 331px;
+	height: 205px;
+	float: left;
+	background-image: url(images/z_04.gif);
+}
+#button_4 {
+	width: 332px;
+	height: 195px;
+	float: left;
+	background-image: url(images/z_05.gif);
+}
+#button_5 {
+	width: 337px;
+	height: 195px;
+	float: left;
+	background-image: url(images/z_06.gif);
+}
+#button_6 {
+	width: 331px;
+	height: 195px;
+	float: left;
+	background-image: url(images/z_07.gif);
+}
+.line_1 {
+	width: 1000px;
+	height: 37px;
+	float: left;
+	background-image: url(images/z_08.gif);
+}
+.line_kontent {
+	width: 1000px;
+	height: auto;
+	float: left;
+	background-image: url(images/z_09.gif);
+	background-repeat: repeat-y;
+}
+
+.kontent_main {
+	width: 950px;
+	margin: 0px auto;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;*/
+	font-size: 14px;
+	/*line-height: 4px;*/
+	
+	}
+.menu_2 {
+	width: 190px;
+	float: left;
+	background-image: url(images/inner_menu.jpg);
+	margin-top: -26px;
+	margin-left: 1px;
+	color: #FFFFFF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.menu_2 ul {
+	font: 17px Arial;
+	text-align: left;
+	margin-left: -25px;
+	margin-top: 10px;
+}
+
+.menu_2 li {
+	list-style: none;
+	line-height: 25px;
+	margin-left: 0px;
+}
+.menu_2 li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.social_f {
+	width: 40px;
+	height: 40px;
+	background-image: url(images/facebook2.png);
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 4px;
+	margin-left: 65px;
+}
+
+.social_v {
+	width: 40px;
+	height: 40px;
+	background-image: url(images/vk2.png);
+	margin-left: 13px;
+	float: left;
+	clear: both;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 4px;
+}
+
+	
+	.kontent_inner {
+	width: 770px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	/*line-height: 4px;*/
+	float: right;
+	margin-right: 15px;
+	}
+	
+.line_down {
+	width: 1000px;
+	height: 24px;
+	float: left;
+	background-image: url(images/z_11.gif);
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-image: url(images/texture.jpg);
+	background-repeat: repeat;
+	width: 100%;
+	height: 210px;
+	clear: both;
+}
+
+.footer_table {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer_table_H {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 18px;
+}
+
+.footer_table_links {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 15px;
+	vertical-align: top;
+	line-height: 21px;
+	color: #FFFFFF; 
+	text-decoration: none
+
+}
+
+.footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.created {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+}
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background-image: url("/bitrix/templates/furniture_pale-blue2/images/inner_menu.jpg");
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+margin-right:10px;
+} 
+
+a.knopka_active {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+ background: #2F3F3C;
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+margin-right:10px;
+}
+a.knopka:hover { background: #2F3F3C } /* при наведении курсора мышки */
+a.knopka:active { background: #2F3F3C } /* при нажатии */

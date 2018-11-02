@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Звукозапись", 
+		"/soundrecord/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Минусовка", 
+		"/minus_one/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Песня в подарок", 
+		"/song-as-a-gift/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Запись песни под ключ", 
+		"/turnkey-song/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аранжировка", 
+		"/arrangement/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
