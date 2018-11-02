@@ -97,7 +97,7 @@ $popupParams["SET_ITEMS"] = $arResult["SET_ITEMS"];
 $popupParams["DEFAULT_SET_IDS"] = $arResult["DEFAULT_SET_IDS"];
 $popupParams["ITEMS_RATIO"] = $arResult["ITEMS_RATIO"];
 ?>
-<script type="text/javascript">
+<script>
 	BX.message({
 		setItemAdded2Basket: '<?=GetMessageJS("CATALOG_SET_ADDED2BASKET")?>',
 		setButtonBuyName: '<?=GetMessageJS("CATALOG_SET_BUTTON_BUY")?>',

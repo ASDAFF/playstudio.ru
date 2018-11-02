@@ -585,7 +585,7 @@ elseif(!$bReload && $_SERVER["REQUEST_METHOD"] == "POST" && (isset($_POST["save"
 				else
 					$type = GetMessage("IBSEC_E_PROP_TYPE_S");
 
-				echo '<script type="text/javascript">
+				echo '<script>
 						top.createSectionProperty('.intval($str_PROPERTY_ID).', \''.CUtil::JSEscape($arFields["NAME"]).'\', \''.CUtil::JSEscape($type).'\', '.intval($arFields["SORT"]).');
 						top.BX.closeWait();
 						top.BX.WindowManager.Get().AllowClose();
@@ -669,7 +669,7 @@ if (isset($_REQUEST['saveresult']))
 	$arProperty['PROPINFO'] = base64_encode(serialize($arHidden));
 
 	$strResult = CUtil::PhpToJsObject($arProperty);
-	?><script type="text/javascript">
+	?><script>
 	arResult = <? echo $strResult; ?>;
 	if (top.<? echo $strReceiver; ?>)
 	{
@@ -877,7 +877,7 @@ else
 		echo $message->Show();
 
 	?>
-	<script type="text/javascript">
+	<script>
 	function jsDelete(form_id, message)
 	{
 		var _form = BX(form_id);
@@ -1526,7 +1526,7 @@ else
 		?></tbody></table><?
 	}
 	?></div></form>
-<script type="text/javascript"><?
+<script><?
 	if('L' == $arProperty['PROPERTY_TYPE'])
 	{
 ?>

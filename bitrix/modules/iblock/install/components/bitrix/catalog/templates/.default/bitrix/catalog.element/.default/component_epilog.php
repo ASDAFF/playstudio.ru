@@ -10,14 +10,14 @@ if (isset($templateData['TEMPLATE_LIBRARY']) && !empty($templateData['TEMPLATE_L
 {
 	CJSCore::Init($templateData['TEMPLATE_LIBRARY']);
 	?>
-	<script type="text/javascript">
+	<script>
 		BX.Currency.setCurrencies(<? echo $templateData['CURRENCIES']; ?>);
 	</script>
 <?
 }
 if (isset($templateData['JS_OBJ']))
 {
-?><script type="text/javascript">
+?><script>
 BX.ready(BX.defer(function(){
 	if (!!window.<? echo $templateData['JS_OBJ']; ?>)
 	{

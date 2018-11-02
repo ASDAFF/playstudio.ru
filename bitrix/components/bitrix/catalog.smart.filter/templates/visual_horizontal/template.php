@@ -92,7 +92,7 @@ $templateData = array(
 						"precision" => 2
 					);
 					?>
-					<script type="text/javascript">
+					<script>
 						BX.ready(function(){
 							var trackBar<?=$key?> = new BX.Iblock.SmartFilter.Horizontal(<?=CUtil::PhpToJSObject($arJsParams)?>);
 						});
@@ -157,7 +157,7 @@ $templateData = array(
 						"precision" => 0
 					);
 					?>
-					<script type="text/javascript" defer="defer">
+					<script defer="defer">
 						BX.ready(function(){
 							var trackBar<?=$key?> = new BX.Iblock.SmartFilter.Horizontal(<?=CUtil::PhpToJSObject($arJsParams)?>);
 						});

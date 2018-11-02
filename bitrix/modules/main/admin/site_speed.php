@@ -104,7 +104,7 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admi
 
 </div>
 
-<script type="text/javascript">
+<script>
 
 (function() {
 	"use strict";

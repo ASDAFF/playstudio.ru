@@ -12,7 +12,7 @@ IncludeTemplateLangFile(__FILE__);
 <meta name="robots" content="noyaca"/>
 <link href="/bitrix/templates/general.css" type="text/css" rel="stylesheet">
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<script>
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {

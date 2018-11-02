@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/mediaelement-and-player.min.js"></script>
-  <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/mep-feature-playlist.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/mediaelement-and-player.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/mep-feature-playlist.js"></script>
   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/mediaelementplayer.css" />
   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/mep-feature-playlist.css" />
   <?$APPLICATION->ShowHead()?>
@@ -24,7 +24,7 @@
 </script>
 
 <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
+  <script>
     (function (d, w, c) {
       (w[c] = w[c] || []).push(function() {
         try {

@@ -551,7 +551,7 @@ for ($i = 0; $i < $num_fields; $i++) {
 
     ?>
 <script src="./js/keyhandler.js" type="text/javascript"></script>
-<script type="text/javascript">
+<script>
 // <![CDATA[
 var switch_movement = 0;
 document.onkeydown = onKeyDownArrowsHandler;
@@ -628,7 +628,7 @@ if ($display_type == 'horizontal') {
         $new_field .= '<td align="center">' . $content_row_val . '</td>';
     }
     ?>
-<script type="text/javascript">
+<script>
 // <![CDATA[
 var odd_row = <?php echo $odd_row; ?>;
 

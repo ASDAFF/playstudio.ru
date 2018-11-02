@@ -82,7 +82,7 @@ function messages_show_html()
         }
     }
 
-    echo "\n" . '<script type="text/javascript">';
+    echo "\n" . '<script>';
     foreach ($old_ids as $id) {
         echo "\nhiddenMessages.push('$id');";
     }

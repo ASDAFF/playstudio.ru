@@ -27,7 +27,7 @@ if (isset($templateData['TEMPLATE_LIBRARY']) && !empty($templateData['TEMPLATE_L
 {
 	CJSCore::Init($templateData['TEMPLATE_LIBRARY']);
 	?>
-	<script type="text/javascript">
+	<script>
 		BX.Currency.setCurrencies(<? echo $templateData['CURRENCIES']; ?>);
 	</script>
 <?

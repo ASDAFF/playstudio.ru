@@ -8,7 +8,7 @@ ShowMessage($arParams["~AUTH_RESULT"]);
 ShowMessage($arResult['ERROR_MESSAGE']);
 ?>
 <? if($arResult['NEW_USER_REGISTRATION'] == 'Y' && ($arResult['USE_OPENID'] == 'Y' || $arResult['USE_LIVEID'] == 'Y')){?>
-<script type="text/javascript">
+<script>
 
 function SAAChangeAuthForm(v)
 {
@@ -100,7 +100,7 @@ if ($arParams["NOT_SHOW_LINKS"] != "Y")
 }
 ?>
 </form>
-<script type="text/javascript">
+<script>
 <?
 if (strlen($arResult["LAST_LOGIN"])>0)
 {

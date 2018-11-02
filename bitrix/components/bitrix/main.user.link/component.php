@@ -387,7 +387,7 @@ if (strlen($arResult["FatalError"]) <= 0)
 
 					$strOnclick = "if (top.BXIM) { top.BXIM.callTo(".$arResult["User"]["ID"]."); return false; }";
 					$strToolbar2 .= '<li id="im-video-call-button" class="bx-icon bx-icon-video"><span onmouseover="'.$strOnmouseover.'" onmouseout="'.$strOnmouseout.'" onclick="'.$strOnclick.'">'.GetMessage("MAIN_UL_TOOLBAR_VIDEO_CALL").'</span></li>';
-					$strToolbar2 .= "<script type='text/javascript'>BX.ready(function(){ if (!top.BXIM || !top.BXIM.checkCallSupport()) { BX.remove(BX('im-video-call-button')); } });</script>";
+					$strToolbar2 .= "<script>BX.ready(function(){ if (!top.BXIM || !top.BXIM.checkCallSupport()) { BX.remove(BX('im-video-call-button')); } });</script>";
 				}
 			}
 			elseif (

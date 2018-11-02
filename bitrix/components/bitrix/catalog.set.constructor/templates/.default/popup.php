@@ -160,7 +160,7 @@ $themeClass = 'bx_'.$theme;
 	</div>
 </div>
 
-<script type="text/javascript">
+<script>
 	var catalogSetPopupObj = new catalogSetConstructPopup(<?=count($arSetElementsOther)?>,
 		<?=(count($arSetElementsOther) > 5) ? (100/count($arSetElementsOther)) : 20?>,
 		"<?=CUtil::JSEscape($arCurElementInfo["PRICE_CURRENCY"])?>",

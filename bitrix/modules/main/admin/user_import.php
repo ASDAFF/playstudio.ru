@@ -259,13 +259,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $tabStep > 2 && check_bitrix_sessid(
 			while ($csvImport->ImportUser())
 			{
 				if(($mess = $csvImport->GetErrorMessage()) <> '')
-					echo "<script type=\"text/javascript\">parent.window.ShowError('".CUtil::JSEscape($mess)."');</script>";
+					echo "<script>parent.window.ShowError('".CUtil::JSEscape($mess)."');</script>";
 
 				if (USER_IMPORT_EXECUTION_TIME > 0 && (getmicrotime()-START_EXEC_TIME) > USER_IMPORT_EXECUTION_TIME)
-					die("<script type=\"text/javascript\">parent.window.Start('".$csvFile->GetPos()."',".$cntUsersImport.");</script>");
+					die("<script>parent.window.Start('".$csvFile->GetPos()."',".$cntUsersImport.");</script>");
 			}
 
-			die("<script type=\"text/javascript\">parent.window.End(".$cntUsersImport.");</script>");
+			die("<script>parent.window.End(".$cntUsersImport.");</script>");
 		}
 		elseif ($ldp)
 		{
@@ -338,7 +338,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $tabStep > 2 && check_bitrix_sessid(
 				{
 					// if user is not found among already existing ones, then import him
 
-					// в $arLdapUserFields - поля текущего user'а, взятые из ldap
+					// пїЅ $arLdapUserFields - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ user'пїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ ldap
 					$userActive = $ldp->getLdapValueByBitrixFieldName("ACTIVE", $arLdapUserFields);
 
 					if($userActive != "Y")
@@ -413,9 +413,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $tabStep > 2 && check_bitrix_sessid(
 			CLdapServer::Update($ldapServer, array("~SYNC_LAST"=>$DB->CurrentTimeFunction()));
 			if (!empty($strUserImportError))
 			{
-				echo "<script type=\"text/javascript\">parent.window.ShowError('".CUtil::JSEscape($strUserImportError)."');</script>";
+				echo "<script>parent.window.ShowError('".CUtil::JSEscape($strUserImportError)."');</script>";
 			}
-			die("<script type=\"text/javascript\">parent.window.End($cntUsersImport);</script>");
+			die("<script>parent.window.End($cntUsersImport);</script>");
 		}
 	}
 }
@@ -649,7 +649,7 @@ if(CModule::IncludeModule("iblock")):
 				<option value="<?=$arLdap["ID"]?>"<?if ($ldapServer == $arLdap["ID"]): $indSelected = $i;?> selected<?endif?>><?=$arLdap["NAME"]?></option>
 			<?endwhile?>
 			</select>
-			<script type="text/javascript">
+			<script>
 				<?
 				$arMapFields = array();
 
@@ -864,7 +864,7 @@ $tabControl->Buttons();
 
 <iframe style="display:none;" id="progress" name="progress" src="javascript:''"></iframe>
 
-<script type="text/javascript">
+<script>
 <!--
 
 function Start(position, cntExecuted)

@@ -242,7 +242,7 @@ foreach ($arResult['ITEMS'] as $key => $arItem)
 				'EMPTY_PROPS' => $emptyProductProperties
 			)
 		);
-		?><script type="text/javascript">
+		?><script>
 		var <? echo $strObName; ?> = new JCCatalogTopBanner(<? echo CUtil::PhpToJSObject($arJSParams, false, true); ?>);
 		</script><?
 	}
@@ -279,7 +279,7 @@ if (1 < $intCount)
 		);
 	}
 ?>
-<script type="text/javascript">
+<script>
 	var ob<? echo $strContID; ?> = new JCCatalogTopBannerList(<? echo CUtil::PhpToJSObject($arJSParams, false, true); ?>);
 </script>
 <?

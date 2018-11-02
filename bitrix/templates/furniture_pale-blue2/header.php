@@ -10,12 +10,12 @@ IncludeTemplateLangFile(__FILE__);
 <?$APPLICATION->ShowHead();?>
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="http://playstudio.ru/portfolio/js/speakker-big-1.2.38r332.min.js"></script> 
+<script src="http://playstudio.ru/portfolio/js/speakker-big-1.2.38r332.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="http://playstudio.ru/lightbox/css/jquery.lightbox-0.5.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://playstudio.ru/lightbox/js/jquery.lightbox-0.5.pack.js"></script>
-<script type="text/javascript" src="http://playstudio.ru/lightbox/js/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="http://playstudio.ru/lightbox/js/jquery.lightbox-0.5.pack.js"></script>
+<script src="http://playstudio.ru/lightbox/js/script.js"></script>
 
 <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.js"></script> -->
 
@@ -25,7 +25,7 @@ IncludeTemplateLangFile(__FILE__);
 <meta name="robots" content="noyaca"/>
 <link href="/bitrix/templates/general.css" type="text/css" rel="stylesheet">
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<script>
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {

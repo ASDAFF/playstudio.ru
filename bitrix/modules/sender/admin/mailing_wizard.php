@@ -183,7 +183,7 @@ if($step=='group')
 			if(isset($popup_create_group) && $popup_create_group == 'Y')
 			{
 				?>
-				<script type="text/javascript">
+				<script>
 					top.BX.WindowManager.Get().Close();
 					top.location.reload();
 				</script>
@@ -1682,7 +1682,7 @@ if(!empty($message))
 			</tr>
 		</table>
 		<?if(isset($popup_create_group) && $popup_create_group == 'Y'):?>
-			<script type="text/javascript">
+			<script>
 				BX.WindowManager.Get().SetButtons([BX.CDialog.prototype.btnSave, BX.CDialog.prototype.btnCancel]);
 			</script>
 		<?endif;?>

@@ -1598,7 +1598,7 @@ $u->Show();
 		obj_ta.focus();
 	}
 </script>
-<script type="text/javascript">
+<script>
 var CellTPL = new Array();
 <?
 foreach ($arCellTemplates as $key => $value)
@@ -3059,7 +3059,7 @@ $tabControl->BeginNextTab();
 ?>
 	<tr>
 		<td>
-			<script type="text/javascript">
+			<script>
 			var obIBProps = new JCIBlockProperty({
 				'PREFIX': '<? echo $strPREFIX_IB_PROPERTY ?>',
 				'FORM_ID': 'frm',
@@ -4235,12 +4235,12 @@ if ($bCatalog)
 
 	$tabControl->BeginNextTab();
 	?>
-	<script type="text/javascript">
+	<script>
 	BX.message({
 		'IB_E_CAT_CONFIRM': '<? echo CUtil::JSEscape(GetMessage('IB_E_CAT_CONFIRM'));?>'
 	});
 	</script>
-	<script type="text/javascript">
+	<script>
 	var obOFProps = new JCIBlockProperty({
 		'PREFIX': '<? echo $strPREFIX_OF_PROPERTY ?>',
 		'FORM_ID': 'frm',
@@ -4462,7 +4462,7 @@ if ($bCatalog)
 	<?
 	}
 	?>
-<script type="text/javascript">
+<script>
 	var is_cat = BX('IS_CATALOG_Y');
 	var is_cont = BX('IS_CONTENT_Y');
 	var is_yand = BX('YANDEX_EXPORT_Y');
@@ -4644,7 +4644,7 @@ if(CIBlockRights::UserHasRightTo($ID, $ID, "iblock_rights_edit"))
 					<?endforeach?>
 					</select>
 
-					<script type="text/javascript">
+					<script>
 					function OnGroupChange(control, message)
 					{
 						var all = document.getElementById('group_2');

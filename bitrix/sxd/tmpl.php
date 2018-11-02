@@ -9,8 +9,8 @@ return <<<HTML
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>{$SXD->name}</title>
 <link rel="stylesheet" type="text/css" href="load.php?sxd.v208.css">
-<script type="text/javascript" src="load.php?sxd.v208.js"></script>
-<script type="text/javascript" src="load.php?{$SXD->LNG['name']}.lng.js"></script>
+<script src="load.php?sxd.v208.js"></script>
+<script src="load.php?{$SXD->LNG['name']}.lng.js"></script>
 <link rel="shortcut icon" href="load.php?favicon.v208.ico">
 </head>
 
@@ -279,7 +279,7 @@ return <<<HTML
 </div>
 
 <div id=sxdMenu style="display:none;z-index:9999;"></div>
-<script type="text/javascript">
+<script>
 sxd.init();
 sxd.backupUrl = '{$SXD->CFG['backup_url']}';
 sxd.tbar.init('sxdToolbar', {$SXD->VAR['toolbar']}); 
@@ -346,7 +346,7 @@ return <<<HTML
 		</table>
 		</form>
 	</div>
-	<script type="text/javascript">document.getElementById('div_1').style.display = 'none';document.getElementById('div_2').style.display = 'block';</script>
+	<script>document.getElementById('div_1').style.display = 'none';document.getElementById('div_2').style.display = 'block';</script>
 </div>
 </body>
 </html>

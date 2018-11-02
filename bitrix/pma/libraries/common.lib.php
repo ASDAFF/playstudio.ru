@@ -927,7 +927,7 @@ function PMA_reloadNavigation($jsonly=false)
         echo "\n";
         $reload_url = './navigation.php?' . PMA_generate_common_url($GLOBALS['db'], '', '&');
         if (!$jsonly) {
-            echo '<script type="text/javascript">' . PHP_EOL;
+            echo '<script>' . PHP_EOL;
         }
     ?>
 //<![CDATA[
@@ -995,7 +995,7 @@ function PMA_showMessage($message, $sql_query = null, $type = 'notice', $is_view
         $tooltip = PMA_Table::sGetToolTip($GLOBALS['db'], $GLOBALS['table']);
         $uni_tbl = PMA_jsFormat($GLOBALS['db'] . '.' . $GLOBALS['table'], false);
         echo "\n";
-        echo '<script type="text/javascript">' . "\n";
+        echo '<script>' . "\n";
         echo '//<![CDATA[' . "\n";
         echo "if (window.parent.updateTableTitle) window.parent.updateTableTitle('"
             . $uni_tbl . "', '" . PMA_jsFormat($tooltip, false) . "');" . "\n";
@@ -1295,7 +1295,7 @@ function PMA_showMessage($message, $sql_query = null, $type = 'notice', $is_view
         ) {
             // see in js/functions.js the jQuery code attached to id inline_edit
             // document.write conflicts with jQuery, hence used $().append()
-            echo "<script type=\"text/javascript\">\n" .
+            echo "<script>\n" .
                 "//<![CDATA[\n" .
                 "$('.tools form').last().after('[<a href=\"#\" title=\"" .
                 PMA_escapeJsString(__('Inline edit of this query')) .

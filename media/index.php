@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Фото/Видео");
 	
 	<div class="instagram_feed">
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function(){
 			$("#instagram").instagramGet({
 				"user_id": "775840369",
@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("Фото/Видео");
 </div>
 
 
-<script type="text/javascript">
+<script>
       $(document).ready(function() {
         $('#instagram').magnificPopup({
           delegate: 'a',

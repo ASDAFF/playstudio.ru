@@ -108,7 +108,7 @@ if (!empty($handlerIDS))
 	$jsParams = array(
 		'blockID' => $blockID
 	);
-?><script type="text/javascript">
+?><script>
 var <? echo $strObName; ?> = new JCIblockBrands(<? echo CUtil::PhpToJSObject($jsParams); ?>);
 </script><?
 }

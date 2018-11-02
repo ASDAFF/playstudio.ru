@@ -116,14 +116,14 @@
 
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/owl.carousel.min.css">
 <!--     <script src="<?=SITE_TEMPLATE_PATH?>/js/flip.js"></script>-->
-<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.maskedinput.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/owl.carousel.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.sticky.min.js" type="text/javascript"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.nicescroll.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/common.min.js"></script>
 <!-- Rating@Mail.ru counter -->
-<script type="text/javascript">
+<script>
 var _tmr = window._tmr || (window._tmr = []);
 _tmr.push({id: "2913002", type: "pageView", start: (new Date()).getTime()});
 (function (d, w, id) {
@@ -137,6 +137,6 @@ _tmr.push({id: "2913002", type: "pageView", start: (new Date()).getTime()});
 <img src="//top-fwz1.mail.ru/counter?id=2913002;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
 </div></noscript>
 <!-- //Rating@Mail.ru counter -->
-<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-185338-aOInQ';</script>
+<script>(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-185338-aOInQ';</script>
 </body>
 </html>
