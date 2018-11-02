@@ -142,7 +142,7 @@
 		<h3>Оставьте заявку</h3>
 		<div class="page-recall-block">
 					<div class="popup-order-info">
-					<a href="tel:+74951370876">+7(495)137-08-76, <a href="tel:+79099172653">+7(909)917-26-53</a><br>
+                        <a href="tel:+74951370876">+7(495)137-08-76</a>, <a href="tel:+79099172653">+7(909)917-26-53</a><br>
 					г. Москва, ул. Воронцовская ул., дом 35 Б, корпус 3, проходная № 1<br>
 					<a href="mailto:info@playstudio.ru">info@playstudio.ru</a>
 					</div>
@@ -635,6 +635,6 @@ $(function() {
 <noscript><div><img src="https://mc.yandex.ru/watch/50259079" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-<script crossorigin="anonymous" async type="text/javascript" src="//api.pozvonim.com/widget/callback/v3/523d41bd25f2b664c7321987861a45eb/connect" id="check-code-pozvonim" charset="UTF-8"></script>
+<script crossorigin="anonymous" async src="//api.pozvonim.com/widget/callback/v3/523d41bd25f2b664c7321987861a45eb/connect" id="check-code-pozvonim"></script>
 </body>
 </html>

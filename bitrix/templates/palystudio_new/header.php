@@ -5,7 +5,8 @@ $page = ($APPLICATION->GetCurPage(false)=='/'?1:0);
 $cur_page = $APPLICATION->GetCurPage(false);
 
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
 	<?$APPLICATION->ShowHead();?>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -35,7 +36,7 @@ $cur_page = $APPLICATION->GetCurPage(false);
 	  gtag('config', 'UA-126327281-1');
 	</script>
 	<title><?$APPLICATION->ShowTitle()?></title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700|Roboto:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700%7CRoboto:300,400,500,700" rel="stylesheet">
 </head>
 
 <body class="<?if($page):?>main<?else:?>page<?endif;?>">
@@ -81,7 +82,7 @@ $cur_page = $APPLICATION->GetCurPage(false);
 
 <div class="top-logo-block">
 	<div class="content-wrapper">
-		<a href="/" title="PlayStudio" class="top-logo-item"><img src="<?=SITE_TEMPLATE_PATH?>/images/playstudio-logo.png"></a>
+		<a href="/" title="PlayStudio" class="top-logo-item"><img src="<?=SITE_TEMPLATE_PATH?>/images/playstudio-logo.png" alt="Лого PlayStudio"></a>
 		
 		<div class="top-logo-adress"><?$APPLICATION->IncludeComponent(
 			"bitrix:main.include",

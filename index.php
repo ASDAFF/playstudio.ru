@@ -17,11 +17,10 @@ $APPLICATION->SetTitle("Профессиональная студия звуко
    	</div>
  </div>
  
-<div class="page-padding40-left"> 					 
-  <h2> 
-    <div style="text-align: center;"><span style="background-color: initial;"><font size="6">Студия звукозаписи </font></span></div>
-   
-    <div style="text-align: center;"><span style="background-color: initial;"><font size="6">для вашего творчества</font></span></div>
+<div class="page-padding40-left">
+    <h2 style="text-align: center;font-size: 1.7em;">
+        Студия звукозаписи <br>
+        для вашего творчества
    </h2>
  <strong>Play Studio</strong> &ndash; это студия звукозаписи в Москве полностью отвечающая требованиям профессиональной студии. У нас вы почувствуете себя настоящей звездой, ведь рядом с вами будут квалифицированные специалисты, работавшие с известными исполнителями в самых разных жанрах. 					 
   <br />
@@ -67,7 +66,7 @@ $APPLICATION->SetTitle("Профессиональная студия звуко
        					
         <div class="clear-div"></div>
        					
-        <div class="ps-recall-form" data-id="recall"> 						<input type="hidden" name="blink" value="&lt;img id=" bxid_133548"="" src="/bitrix/images/fileman/htmledit2/php.gif" border="0" />&quot; /&gt; 						<input type="hidden" name="bform" value="Консультация по услугам" /> 						<input type="text" name="bname" placeholder="Имя" /> 						<input type="text" name="bphone" placeholder="Телефон" /> 						
+        <div class="ps-recall-form" data-id="recall"> 						<input type="hidden" name="blink" value="<?=$APPLICATION->GetCurPage(false)?>" />						<input type="hidden" name="bform" value="Консультация по услугам" /> 						<input type="text" name="bname" placeholder="Имя" /> 						<input type="text" name="bphone" placeholder="Телефон" />
           <div class="clear-div"></div>
          						
           <div class="form-submit" data-form="recall">Отправить</div>

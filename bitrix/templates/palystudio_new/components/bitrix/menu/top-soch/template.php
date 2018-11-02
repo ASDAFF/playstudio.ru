@@ -2,7 +2,7 @@
 
 <?if (!empty($arResult)):?>
 
-<nobr>
+<span style="white-space: nowrap">
 <?
 
 foreach($arResult as $arItem):
@@ -11,5 +11,5 @@ $ind++;?>
 <a href="<?=$arItem["LINK"]?>" class="nchild<?=$ind?><?if ($arItem["SELECTED"]):?> selected<?else:?><?endif?>"><?=$arItem["TEXT"]?></a>
 
 <?endforeach?>
-</nobr>
+</span>
 <?endif?>
